@@ -1,0 +1,198 @@
+:root {
+    --blue:#0540F2;
+    --color: #0540F2;
+    
+  }
+
+/* hero section start */
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.hero_section{
+    background-image: url(../image/Rectangle\ 5.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.616);
+    background-blend-mode:darken;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav_top a{
+    color: white !important;
+    font-weight:600;
+}
+.nav_bottom h1{
+    color: white;
+    font-weight: 600;
+}
+.nav_bottom p{
+    color: white;
+}
+
+.nav_bottom a{
+    text-decoration: none;
+    color: white;
+    background-color: var(--color);
+    border-radius: 20px;
+    font-weight: 500;
+    border: 1px solid var(--color);
+}
+.nav_bottom .btn_white{
+    background-color: transparent;
+    border: 1px solid white;
+}
+/* hero section end *//* Rectangle 5 */
+
+/* about section start */
+.about_section{
+    background-color: #eaeaea;
+}
+.about_box{
+    background-color: white;
+    border-radius: 10px;
+}
+.about_box h4{
+    color: var(--color);
+    /* font-size: 18px; */
+    font-weight: bold;
+}
+.about_box h1{
+    color: var(--color);
+}
+.about_box p{
+    font-weight: bolder;
+    
+}
+.about_box_text{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.about_bottom a{
+    background-color: var(--color);
+    color: white;
+    text-decoration: none;
+    font-size:15px;
+    border-radius: 8px;
+}
+.about_box_text{
+    display: flex;
+    flex-direction: column;
+}
+/* about section end */
+
+/* course section start */
+.course_section{
+    background-color: #eaeaea;
+}
+.course_head h1{
+    color: var(--color);
+}
+.course_box{
+    background-color: var(--color);
+    border-radius: 8px;
+}
+.course_box i{
+    color:white;
+
+}
+.course_box h4{
+    color:white;
+    font-size: 17px;
+}
+.course_box p{
+    color:white;
+    font-size: 13px;
+}
+.course_btn a{
+    background-color: var(--color);
+    color: white;
+    text-decoration: none;
+    font-size:15px;
+    border-radius: 8px;
+}
+/* course section end */
+
+/* admission section start */
+
+.admission_section{
+    background-color: #eaeaea;
+}
+.admission_head h1{
+    color: var(--color);
+}
+.admission_icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: var(--color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.admission_icon i{
+    color: white;
+    font-size: 20px;
+}
+
+/* admission section end */
+
+ /* testimonial section start */
+
+ .testimonial_section{
+    background-color: var(--color);
+ }
+ .testimonial_head {
+    color: white;
+ }
+
+ /* testimonial section end */
+
+ /*  blog section start */
+
+.blog_section{
+    background-color: #eaeaea;
+}
+.blog_top h1{
+    color: var(--color);
+}
+.blog_btn a{
+    background-color: var(--color);
+    color: white;
+    text-decoration: none;
+    font-size:15px;
+    border-radius: 20px;
+}
+.blog_card_btn{
+    border-radius: 17px;
+    background-color: var(--color);
+    color: white;
+}
+.blog_card_p{
+    color: var(--color);
+    font-weight: bold;
+}
+ /*  blog section end */
+
+ /* about section start */
+
+.contact_section{
+    background-color: #eaeaea;
+}
+.contact_head h1{
+    color: var(--color);
+}
+.contact_bottom{
+    background-color: var(--color);
+}
+.contact_btn a{
+    background-color: var(--color);
+    color: white;
+    text-decoration: none;
+    font-size:15px;
+    border-radius: 20px;
+}
+ /* about section end */
+
